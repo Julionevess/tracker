@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#ffffff">
+    
+ <TextView
+		android:id="@+id/txtConfig"
+		android:layout_width="fill_parent"
+		android:gravity="center"
+		android:text="@string/config" 
+		android:layout_height="wrap_content" 
+		android:textSize="30sp" />
+		
+  <LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content" android:layout_marginTop="20dip">
+  
+	  <TextView
+			android:id="@+id/txtphone"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/n_mero_telefone_" 
+			android:gravity="right" 
+			android:width="120dp" />
+		<EditText
+			android:id="@+id/edtphone"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text=""
+			android:maxLines="1" 
+			android:maxLength="20" 
+			android:inputType="phone"/>
+  </LinearLayout>
+  
+	<LinearLayout
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content">
+	  
+		  <TextView
+				android:id="@+id/txtpassword"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="right" 
+				android:width="120dp" 
+				android:text="@string/senha_"/>
+			<EditText
+				android:id="@+id/edtpassword"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text=""
+				android:maxLines="1" 
+				android:maxLength="20" android:cursorVisible="false" 
+				android:inputType="textPassword"/>
+	</LinearLayout>
+	
+	<LinearLayout
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content">
+	  
+		  <TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="right" 
+				android:width="120dp" 
+				android:text="@string/telefone_admin_1"/>
+			<EditText
+				android:id="@+id/edtadm1"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text=""
+				android:enabled="false"
+				android:maxLines="1" 
+				android:maxLength="20" 
+				android:cursorVisible="false" 
+				android:inputType="text"/>
+	</LinearLayout>
+	
+	<LinearLayout
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content">
+	  
+		  <TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="right" 
+				android:width="120dp" 
+				android:text="@string/telefone_admin_2"/>
+			<EditText
+				android:id="@+id/edtadm2"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:maxLines="1" 
+				android:maxLength="20" 
+				android:cursorVisible="false" 
+				android:inputType="text"/>
+	</LinearLayout>
+	<LinearLayout
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content">
+	  
+		  <TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="right" 
+				android:width="120dp" 
+				android:text="@string/telefone_admin_3"/>
+			<EditText
+				android:id="@+id/edtadm3"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:maxLines="1" 
+				android:maxLength="20" 
+				android:cursorVisible="false" 
+				android:inputType="text"/>
+	</LinearLayout>
+	<LinearLayout
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content">
+	  
+		  <TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="right" 
+				android:width="120dp" 
+				android:text="@string/telefone_admin_4"/>
+			<EditText
+				android:id="@+id/edtadm4"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:maxLines="1" 
+				android:maxLength="20" 
+				android:cursorVisible="false" 
+				android:inputType="text"/>
+	</LinearLayout>
+	
+	<LinearLayout
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content">
+	  
+		  <TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="right" 
+				android:width="120dp" 
+				android:text="@string/telefone_admin_5"/>
+			<EditText
+				android:id="@+id/edtadm5"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:maxLines="1" 
+				android:maxLength="20" 
+				android:cursorVisible="false" 
+				android:inputType="text"/>
+	</LinearLayout>
+	
+	
+	<LinearLayout
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+	  android:orientation="horizontal">
+	<Button
+			android:id="@+id/btsalvarconfig"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/salvar_configura_es"/>
+	
+	<Button
+			android:id="@+id/btcancelarconfig"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/cancelar"/>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent">
+<LinearLayout
+  android:layout_width="fill_parent"
+  android:orientation="vertical"
+  android:layout_height="fill_parent">
+  
+   <TextView
+		android:id="@+id/txtlogin"
+		android:layout_width="fill_parent"
+		android:gravity="center"
+		android:text="Tela de Login " 
+		android:layout_height="wrap_content" 
+		android:textSize="30px"/>
+		
+  <LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content" android:layout_marginTop="20dip">
+  
+	  <TextView
+			android:id="@+id/txtusuario"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Login: " 
+			android:gravity="right" 
+			android:width="67px" />
+		<EditText
+			android:id="@+id/edtusuario"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text=""
+			android:maxLines="1" 
+			android:maxLength="20"/>
+  </LinearLayout>
+  
+	<LinearLayout
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content">
+	  
+		  <TextView
+				android:id="@+id/txtsenha"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="right" 
+				android:width="67px" 
+				android:text="Senha: "/>
+			<EditText
+				android:id="@+id/edtsenha"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text=""
+				android:maxLines="1" 
+				android:maxLength="20" android:cursorVisible="false" android:password="true"/>
+	</LinearLayout>
+	
+	<LinearLayout
+		  android:layout_width="fill_parent"
+		  android:layout_height="wrap_content"
+		  android:gravity="center"
+		  android:layout_gravity="center">
+		  <Button
+				android:id="@+id/btnCancelar"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Cancelar"
+				android:layout_gravity="center"
+				android:width="120px" 
+				android:padding="10px" />
+		  	<Button
+				android:id="@+id/btnLogar"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Logar"
+				android:layout_gravity="center"
+				android:width="100px" 
+				android:padding="10px" 
+				android:layout_marginLeft="10dip"/>
+		  	
+	</LinearLayout>
+  <CheckBox
+  		android:id="@+id/cbsalvarsenha"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Salvar Senha"
+		android:layout_gravity="right"  
+  		android:checked="true" />
+  		
+  		<ImageView 
+	  		android:id="@+id/ivconfig"
+			android:layout_width="50dip"
+			android:layout_height="50dip"
+			android:src="@drawable/config"
+  		/>
+  		
+  	<LinearLayout
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+	  android:id="@+id/layoutserver"
+	  android:visibility="invisible"
+	  android:orientation="vertical">
+	 
+	  <LinearLayout
+		  android:layout_width="fill_parent"
+		  android:layout_height="wrap_content">
+	  
+			  <TextView
+					android:id="@+id/txtserver"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:gravity="right" 
+					android:width="67px" 
+					android:text="Servidor: "/>
+				<EditText
+					android:id="@+id/edtserver"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:text=""
+					android:maxLines="1" />
+		</LinearLayout>
+		
+		
+	</LinearLayout>
+		
+</LinearLayout>
+</ScrollView>

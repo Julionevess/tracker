@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/numberPhoneAdmin"
+        android:layout_marginLeft="10dp"
+        android:textColor="#777"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp" />
+
+    <EditText
+        android:id="@+id/edtnumberphoneadmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="10dp"
+        android:hint="81987654321"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digitar apenas números, sem espaço, ex: o número (81)9.8765-4321 fica 81987654321"
+        android:layout_marginLeft="10dp" />
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tracker</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="senha_">"Senha: "</string>
+    <string name="salvar_configura_es">Salvar Configurações</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="config">Config</string>
+    <string name="n_mero_telefone_">"Número Telefone: "</string>
+	<string name="numberPhone">Número Telefone</string>
+    <string name="numberPhoneAdmin">"Telefone Administrador"</string>
+    <string name="label_ok">OK</string>
+    <string name="label_cancel">Cancelar</string>
+    <string name="bloqueio">Bloqueio</string>
+    <string name="move">Move</string>
+    <string name="block">Bloqueio</string>
+    <string name="mode">Modo</string>
+    <string name="distance">Distancia</string>
+    <string name="interval">Intervalo</string>
+    <string name="edtrepetition">Repetição</string>
+    <string name="fix">Fix</string>
+    <string name="_50">50</string>
+    <string name="telefone_admin_1">Telefone admin 1</string>
+    <string name="telefone_admin_2">Telefone admin 2</string>
+    <string name="telefone_admin_3">Telefone admin 3</string>
+    <string name="telefone_admin_4">Telefone admin 4</string>
+    <string name="telefone_admin_5">Telefone admin 5</string>
+    <string name="licencaexpirada">Adiquira uma licença e continue usando o aplicativo.</string>
+    <string name="demoversion">DEMO</string>
+
+</resources>

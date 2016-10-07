@@ -1,0 +1,133 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".PanelActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#ffffff">
+
+        <Switch
+            android:id="@+id/swmode"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scrollHorizontally="false"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Modo de rastreamento"
+            android:textOff="Monitor"
+            android:textOn="Tracker"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_height="1dp"
+            android:layout_width="fill_parent"
+            android:background="#aaaaaa" />
+        <Switch
+            android:id="@+id/swblock"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scrollHorizontally="false"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Bloqueio do Veículo"
+            android:textOff="Off"
+            android:textOn="On"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_height="1dp"
+            android:layout_width="fill_parent"
+            android:background="#aaaaaa" />
+
+        <Switch
+            android:id="@+id/swfix"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Localização repetida"
+            android:textOff="Off"
+            android:textOn="On"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_height="1dp"
+            android:layout_width="fill_parent"
+            android:background="#aaaaaa" />
+
+        <Switch
+            android:id="@+id/swbdistance"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Alarme de Distância"
+            android:textOff="Off"
+            android:textOn="On"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_height="1dp"
+            android:layout_width="fill_parent"
+            android:background="#aaaaaa" />
+
+        <Switch
+            android:id="@+id/swmove"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Alarme de movimento"
+            android:textOff="Off"
+            android:textOn="On"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_height="1dp"
+            android:layout_width="fill_parent"
+            android:background="#aaaaaa" />
+
+
+    </LinearLayout>
+
+
+    
+        <GridView
+            android:id="@+id/gridView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="20dp"
+            android:columnWidth="100dp"
+            android:gravity="center"
+            android:numColumns="auto_fit"
+            android:stretchMode="columnWidth" />
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>

@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intervalo entre mensagens, definido em segundos"
+        android:layout_marginLeft="10dp"
+        android:textColor="#777"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp" />
+
+    <EditText
+        android:id="@+id/edtinterval"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="16dp"
+        android:hint="@string/interval"
+        android:inputType="number"
+        android:text="030" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quantidade de repetições"
+        android:layout_marginLeft="10dp"
+        android:textColor="#777"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp" />
+
+    <EditText
+        android:id="@+id/edtrepeticoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="16dp"
+        android:hint="@string/edtrepetition"
+        android:inputType="number"
+        android:text="005" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digitar apenas números, para cada campo só será permitido um máximo de três dígitos"
+        android:layout_marginLeft="10dp" />
+
+
+
+
+</LinearLayout>
