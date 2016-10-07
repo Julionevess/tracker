@@ -233,7 +233,7 @@ public class Tracker extends Activity implements OnItemClickListener {
                 break;
             case R.id.action_create_admin:
                 String comanndAddAdmin = "admin" + passwordNumber;
-                
+
                 openDialogAdmin(comanndAddAdmin);
                 break;
         }
